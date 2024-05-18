@@ -11,8 +11,10 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => (
     sx={ { borderTop: bodyPart === item ? '4px solid #FF2625': '',
      background: '#fff', 
      borderBottomLeftRadius: '20px', 
-     width: '270px', height: '282px', 
-     cursor: 'pointer', gap: '47px' }}
+     width: '270px',
+     height: '282px', 
+     cursor: 'pointer',
+     gap: '47px' }}
     onClick={() => {
       setBodyPart(item);
       window.scrollTo({ top: 1800, left: 100, behavior: 'smooth' });
